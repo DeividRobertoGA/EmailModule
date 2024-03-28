@@ -2,11 +2,11 @@
 
 Esse modulo permite a conexão com o email e o node
 
-Passo 1. Instale o `nodemailer`</br>
+Passo 1. Instale o `nodemailer` e o `dotenv`</br>
 ```sh
-yarm install nodemailer
+yarm install nodemailer dotenv
 //or
-npm install nodemailer
+npm install nodemailer dotenv
 ```
 Passo 2. Preencha o ENV com os dados do e-mail
 ```shell

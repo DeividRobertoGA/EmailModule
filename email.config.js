@@ -15,4 +15,11 @@ const email = nodemailer.createTransport({
     },
 });
 
-export default email;
+//Verificar E-Mail
+const emailVerify = (callback) => {
+    email.verify((err, success) => {
+        callback(err, success);
+    });
+};
+
+export {email, emailVerify};
